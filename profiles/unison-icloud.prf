@@ -1,0 +1,13 @@
+root = __REPLACE_PWD_HERE__/
+root = /Users/__REPLACE_USER_NAME_HERE__/Library/Mobile Documents/iCloud~com~logseq~logseq/Documents/graphs/
+
+ignore = Name .DS_Store
+ignore = Name .git
+ignore = Name custom.css
+ignore = Name pages-metadata.edn
+ignore = Name logseq/bak/*
+
+path = personal
+
+merge = Name * -> screen -DmS unisonmerge vimdiff CURRENT1 CURRENT2
+merge = Name .* -> screen -DmS unisonmerge vimdiff CURRENT1 CURRENT2

@@ -1,0 +1,8 @@
+# logseq
+/*/logseq/bak/
+/*/logseq/.recycle/
+/*/logseq/pages-metadata.edn
+
+# gh-pages
+/gh-pages/*
+!/gh-pages/CNAME

@@ -1,0 +1,13 @@
+pages:
+  stage: deploy
+  image:
+    name: yelo/logseq-publish-spa:0.2.0
+    docker:
+      user: root
+  script:
+    - sudo logseq-publish-spa public -d graph -s /opt/logseq/static
+  artifacts:
+    paths:
+      - public
+  only:
+    - master
